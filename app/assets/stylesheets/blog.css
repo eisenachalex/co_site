@@ -1,5 +1,13 @@
 .blog_post {
 	width:700px;
+	float:left;
+}
+
+.ads {
+	width:400px;
+	background-color:#e8e8e8;
+	height:1000px;
+	float:right;
 }
 
 .blog_header {
