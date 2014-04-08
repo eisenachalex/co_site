@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  database: co_test
+  database: co_development
   host: localhost
   pool: 5
   timeout: 50000
@@ -22,6 +22,6 @@ test:
 production:
   adapter: postgresql
   host: localhost
-  database: co_test
+  database: co_production
   pool: 5
   timeout: 50000
