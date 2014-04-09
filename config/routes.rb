@@ -1,6 +1,7 @@
 Portfolio::Application.routes.draw do
   get '/' => 'home#index'
   get '/blog' => 'home#blog'
+  get '/products' => 'home#products'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

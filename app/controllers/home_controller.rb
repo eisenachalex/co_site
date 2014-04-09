@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
 	def blog
 	end
+
+	def products
+	end
 end
