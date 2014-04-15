@@ -21,6 +21,9 @@
 	display:inline-block;
 	margin-right:10px;
 	border-radius:5px;
+		box-shadow:0px 0px 5px #e8e8e8;
+		border:1px solid #e8e8e8;
+
 }
 
 .product ul {
@@ -65,7 +68,7 @@ img.screen_shot{
 	height:300px;
 	width:200px;
 	border-radius:3px;
-	box-shadow:0px 0px 3px #a0a0a0;
+	box-shadow:0px 0px 30px #a0a0a0;
 	margin-right:20px;
 }
 

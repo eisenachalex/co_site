@@ -1,3 +1,21 @@
 <div class="container">
 <h1>Contact us</h1>
+		<div id="contact_box">
+			<%= form_for(@message, html: {id: "contact_form"}) do %>
+
+
+			<%= text_field_tag(:name, "Name", class: "form_input", :onclick => 'if($(this).val()=="Name"){$(this).val("");};')%>
+
+			<%= text_field_tag(:email, "Email", class: "form_input", :onclick => 'if($(this).val()=="Email"){$(this).val("");};') %>
+
+			<%= text_area_tag(:message, "Message", class: "form_input", size:"40x6", :onclick => 'if($(this).val()==
+			"Message"){$(this).val("");};') %>
+
+			<%= submit_tag("Send Message", class: "button") %>
+
+			<% end %>
+			<div id="thanks">
+				Thank's for reaching out. We will contact you shortly.
+			</div>
+		</div>
 </div>

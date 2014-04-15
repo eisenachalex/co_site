@@ -13,3 +13,32 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+$(document).ready(function() {
+
+
+
+
+ $("form#contact_form").submit(function(e){
+ 	e.preventDefault();
+ 	var valuesToSubmit = $(this).serialize();
+ 	console.log(valuesToSubmit)
+ 	var url = $(this).attr('action');
+ 	var data = valuesToSubmit;
+  		$("#contact_form").hide();
+ 		$("#thanks").fadeIn();
+ 	$.post(url,data,function(response) {
+
+ 	});
+
+
+
+
+
+
+
+ })
+
+
+})

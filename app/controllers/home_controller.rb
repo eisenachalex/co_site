@@ -7,4 +7,8 @@ class HomeController < ApplicationController
 
 	def products
 	end
+
+	def contact
+		@message = Message.new
+	end
 end
