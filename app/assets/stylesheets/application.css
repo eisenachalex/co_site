@@ -19,9 +19,9 @@
 			position:relative;
 		}
 
-.container h1 {font-weight:500;
-               color:#474747;
-           	   letter-spacing:5px;
+.container h1 {font-weight:300;
+               color:#a0a0a0;
+           	   letter-spacing:3px;
            	   padding-bottom:10px;
-           	   border-bottom:1px dotted #086ca2;
+           	   font-family:'webfont_light',Helvetica,Arial,sans-serif;
            	   }
