@@ -40,6 +40,10 @@
 	vertical-align:top;
 }
 
+.product_features h3 {
+	color:#086ca2;
+}
+
 .product_header {
 	display:block;
 	clear:both;
@@ -73,7 +77,7 @@ img.screen_shot{
 }
 
 .storyboard{
-	display:block;
+	display:inline-block;
 	clear:both;
 	margin-bottom:50px;
 	margin-right:20px;
