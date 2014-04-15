@@ -13,7 +13,7 @@
 	vertical-align:top;
 	margin:0px;
 	margin-bottom:20px;
-	color:#474747;
+	color:#8f8f8f;
 	text-shadow:0px 0px 3px #f0f0f0;
 
 }
@@ -50,7 +50,6 @@
 
 .product p {
 	width:700px;
-	color:#474747;
 	font-size:12px;
 	line-height:22px;
 	display:inline-block;
@@ -92,7 +91,6 @@ img.screen_shot{
 .storyboard_description h4 {
 	margin-top:0px;
 	color:#086ca2;
-	text-shadow:0px 0px 10px #a0a0a0;
 }
 
 .color_box {
@@ -107,5 +105,5 @@ img.screen_shot{
 }
 
 .storyboard li {
-	color:#474747;
+	color:#8f8f8f;
 }

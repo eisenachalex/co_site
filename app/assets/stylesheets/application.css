@@ -16,11 +16,12 @@
 			text-align:left;
 			height:auto;
 			margin:auto;
+			color:#a0a0a0;
 			position:relative;
 		}
 
-.container h1 {font-weight:300;
-               color:#a0a0a0;
+.container h1 {font-weight:300; 
+               color:#8f8f8f;
            	   letter-spacing:3px;
            	   padding-bottom:10px;
            	   font-family:'webfont_light',Helvetica,Arial,sans-serif;
