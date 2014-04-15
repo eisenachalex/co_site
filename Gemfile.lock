@@ -104,6 +104,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  json
   pg
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)

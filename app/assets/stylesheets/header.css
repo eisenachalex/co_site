@@ -15,8 +15,12 @@
 	width:200px;
 	height:80px;
 	color:#086ca2;
-}
 
+}
+#logo a {
+	text-decoration:none;
+	color:#086ca2;
+}
 #navbar {
 	text-transform:uppercase;
 	list-style:none;
