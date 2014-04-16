@@ -33,13 +33,14 @@
 	display:inline-block;
 	width:346px;
 	height:256px;
-	background-color:#474747;
 	overflow:hidden;
 	position:relative;
 	text-align:left;
 	padding:10px;
 	color:#e8e8e8;
 	font-weight:100;
+	line-height:25px;
+	font-size:14px;
 }
 
 #image_box_1 {
@@ -68,22 +69,37 @@ background-image: linear-gradient(to bottom right, #64AAD0 0%, #7BD0FF 100%);
 /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
 
 /* IE10 Consumer Preview */ 
-background-image: -ms-linear-gradient(top left, #086CA2 0%, #0B8DD4 100%);
+/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #086CA2 0%, #0A86C9 100%);
 
 /* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top left, #086CA2 0%, #0B8DD4 100%);
+background-image: -moz-linear-gradient(top left, #086CA2 0%, #0A86C9 100%);
 
 /* Opera */ 
-background-image: -o-linear-gradient(top left, #086CA2 0%, #0B8DD4 100%);
+background-image: -o-linear-gradient(top left, #086CA2 0%, #0A86C9 100%);
 
 /* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #086CA2), color-stop(1, #0B8DD4));
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #086CA2), color-stop(1, #0A86C9));
 
 /* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top left, #086CA2 0%, #0B8DD4 100%);
+background-image: -webkit-linear-gradient(top left, #086CA2 0%, #0A86C9 100%);
 
 /* W3C Markup, IE10 Release Preview */ 
-background-image: linear-gradient(to bottom right, #086CA2 0%, #0B8DD4 100%);
+background-image: linear-gradient(to bottom right, #086CA2 0%, #0A86C9 100%);
+
+
+}
+
+
+
+.pattern2 {
+	background-image:url('ruby_gem_pattern.png');
+background-repeat:no-repeat;
+background-position:center bottom;
+height:256px;
+width:346px;
 }
 
 #image_box_3{
@@ -110,7 +126,28 @@ background-image: linear-gradient(to bottom right, #8F8F8F 0%, #A3A3A3 100%);
 .image_box p {
 	width:200px;
 }
+.image_box a {
+	padding:5px 10px;
+	border:1px solid #e8e8e8;
+	border-radius:10px;
+	text-decoration:none;
+	color:#e8e8e8;
+	width:auto;
+	text-transform:uppercase;
+	font-size:12px;
+	letter-spacing:1px;
+}
 
+.image_box a:hover {
+	border:1px solid #474747;
+	color:#474747;
+}
+
+.iphone_white {
+	position:absolute;
+	bottom:5px;
+	right:10px;
+}
 .image_box h2 {
 	color:#f5f5f5;
 	text-shadow:0px 0px 2px #474747;
