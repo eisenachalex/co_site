@@ -14,4 +14,7 @@ class HomeController < ApplicationController
 
 	def services
 	end
+
+	def clients
+	end
 end

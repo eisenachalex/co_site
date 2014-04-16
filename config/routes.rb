@@ -5,6 +5,7 @@ Portfolio::Application.routes.draw do
   get '/about' => 'home#about'
   get '/contact' => 'home#contact'
   get '/services' => 'home#services'
+  get '/clients' => 'home#clients'
 
   resources :messages
   # The priority is based upon order of creation:
