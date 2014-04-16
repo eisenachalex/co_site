@@ -6,11 +6,37 @@
 	display:block;
 	clear:both;
 }
+
+#git_icon {
+	background-image:url('git_icon.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+#git_icon:hover {
+	background-image:url('git_icon_hover.png');
+}
+#twitter_icon {
+	background-image:url('twitter_icon.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+#twitter_icon:hover {
+	background-image:url('twitter_icon_hover.png');
+}
+#facebook_icon {
+	background-image:url('facebook_icon.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+#facebook_icon:hover {
+	background-image:url('facebook_icon_hover.png');
+}
+
 #logo {
 	font-size:30px;
 	display:inline-block;
 	position:absolute;
-	top:0px;
+	top:03px;
 	left:0px;
 	width:200px;
 	height:80px;
@@ -49,9 +75,9 @@
 	margin-left:10px;
 	margin-top:10px;
 	padding:8px;
-	color:#a0a0a0;
+	color:#868686;
 	text-align:center;
-	border:1px solid #a0a0a0;
+	border:1px solid #868686;
 }
 .social_button:hover{
 	border:1px solid #086ca2;

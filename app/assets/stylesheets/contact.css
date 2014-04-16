@@ -1,5 +1,7 @@
 #contact_box{
 	height:500px;
+	position:relative;
+	
 }
 
 #contact_box input,textarea {
@@ -19,4 +21,10 @@
 
 #thanks{
 	display:none;
+}
+
+#corner_image {
+	position:absolute;
+	top:0px;
+	right:0px;
 }
