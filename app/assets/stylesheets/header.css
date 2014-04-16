@@ -10,7 +10,7 @@
 	font-size:30px;
 	display:inline-block;
 	position:absolute;
-	top:10px;
+	top:0px;
 	left:0px;
 	width:200px;
 	height:80px;
@@ -27,7 +27,7 @@
 	display:inline-block;
 	line-height:80px;
 	position:absolute;
-	top:-15px;
+	top:0px;
 	left:150px;
 }
 
