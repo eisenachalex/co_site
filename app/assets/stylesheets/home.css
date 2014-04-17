@@ -105,7 +105,7 @@ background-image: -webkit-linear-gradient(top left, #086CA2 0%, #0A86C9 100%);
 
 /* W3C Markup, IE10 Release Preview */ 
 background-image: linear-gradient(to bottom right, #086CA2 0%, #0A86C9 100%);
-
+vertical-align:top;
 
 }
 
