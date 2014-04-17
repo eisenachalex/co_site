@@ -18,6 +18,8 @@
 			margin:auto;
 			color:#a0a0a0;
 			position:relative;
+			display:block;
+			clear:both;
 		}
 
 .container h1 {font-weight:500; 
