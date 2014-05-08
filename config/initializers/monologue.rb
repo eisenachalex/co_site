@@ -1,0 +1,1 @@
+Monologue::PageCache.enabled = true

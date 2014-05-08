@@ -6,7 +6,18 @@ Portfolio::Application.configure do
 
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
+
+
+  #start monologue
+    #disable page cache
+   # config.action_controller.perform_caching = false
+
+   #enable page cache
   config.action_controller.perform_caching = true
+
+  ActionController::Base.perform_caching = true
+
+  #end monologue
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
   config.serve_static_assets = false
@@ -19,6 +30,7 @@ Portfolio::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
+
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
