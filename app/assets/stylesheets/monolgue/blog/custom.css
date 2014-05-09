@@ -1,0 +1,62 @@
+.blog_post {
+  width:700px;
+  float:left;
+}
+
+#blog {
+
+}
+
+#blog p{
+  width:600px;
+  font-size:14px;
+  line-height:22px;
+}
+
+.ads {
+  width:400px;
+  background-color:#e8e8e8;
+  height:1000px;
+  float:right;
+}
+
+
+
+.blog_header {
+  width:100%;
+  height:auto;
+}
+.blog_image {
+  width:250px;
+  height:220px;
+  float:left;
+  box-shadow:0px 0px 1px #868686;
+}
+.blog_title {
+  color:red;
+  float:left;
+  width:440px;
+  padding-left:10px;
+  font-size:40px;
+  color:#8f8f8f;
+  font-weight:200;
+}
+.blog_title p {
+  font-size:16px;
+}
+.content_header{
+  width:100%;
+  padding:10px 0px;
+  height:auto;
+  display:block;
+  clear:both;
+  font-size:11px;
+  color:#086ca2;
+}
+
+.content_header img {
+  float:left;
+  width:80px;
+  height:80px;
+  background-color:red;
+}
