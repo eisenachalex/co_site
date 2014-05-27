@@ -12,8 +12,8 @@ Portfolio::Application.configure do
     #disable page cache
    # config.action_controller.perform_caching = false
 
-   #enable page cache
-  config.action_controller.perform_caching = true
+   #disable page cache for Heroku
+  config.action_controller.perform_caching = false
 
   ActionController::Base.perform_caching = true
 
