@@ -1,4 +1,6 @@
 Portfolio::Application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
+
   get '/' => 'home#index'
   get '/blog' => 'home#blog'
   get '/products' => 'home#products'
@@ -15,7 +17,7 @@ Portfolio::Application.routes.draw do
 #
 # We ask that you don't use the :as option here, as Monologue relies on it being the default of "monologue"
 mount Monologue::Engine, at: '/blog-posts' # or whatever path, be it "/blog" or "/monologue"
-
+mount Ckeditor::Engine => '/ckeditor'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
