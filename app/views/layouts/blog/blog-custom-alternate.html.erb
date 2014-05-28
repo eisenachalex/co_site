@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <%= render 'layouts/monologue/application/head' %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= render 'layouts/header' %>
+  <div class="container" id ="blog">
+    <header class="main-header sixteen columns clearfix">
+      <%= rss_icon %>
+      <h1 class="blog_name"><a href="<%= root_path %>">The FreeSwim Blog</a></h1>
+    </header>
+
+   <!--  <div class="content twelve columns">
+      <% flash.each do |name, msg| %>
+      <div class="flash-notice">
+        <%= msg %>
+      </div>
+      <% end %> -->
+
+      <div class="blog_post">
+        <%= yield %>
+      </div>
+        <div class="ads">
+        </div>
+
+    </div>
+
+    <%= render 'layouts/monologue/application/sidebar' %>
+  </div>
+  <% if content_for?(:footer) %>
+  <footer>
+    <%= yield :footer %>
+  </footer>
+  <% end %>
+  <%= render 'layouts/monologue/application/disqus' %>
+  <%= render 'layouts/monologue/application/gauge_analytics' %>
+  <%= render 'layouts/footer' %>
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+  // $('img').wrap( "<div class='blog_featured_image'></div>" );
+  // $('.blog_post h1').wrap( "<div class='blog_title'></div>" );
+});
+</script>
