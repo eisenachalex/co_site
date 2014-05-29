@@ -10,7 +10,7 @@
 
 #### Gems:
 
-  - Rails 3.2+
+  - Rails 3.2
   - monologue (0.3.0)
   - carrierwave (0.9.0)
   - ckeditor (4.0.11)
