@@ -12,9 +12,9 @@
 <body>
   <%= render 'layouts/header' %>
   <div class="container" id ="blog">
+      <h1 class="blog_name"><a href="<%= root_path %>">The FreeSwim Blog</a></h1>
     <header class="main-header sixteen columns clearfix">
       <%= rss_icon %>
-      <h1 class="blog_name"><a href="<%= root_path %>">The FreeSwim Blog</a></h1>
     </header>
 
    <!--  <div class="content twelve columns">
@@ -27,8 +27,39 @@
       <div class="blog_post">
         <%= yield %>
       </div>
-        <div class="ads">
-        </div>
+
+      <div class="ads">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- blog ads -->
+        <ins class="adsbygoogle"
+        style="display:inline-block;width:300px;height:250px"
+        data-ad-client="ca-pub-3458378356223494"
+        data-ad-slot="8713877563"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- blog ads -->
+        <ins class="adsbygoogle"
+        style="display:inline-block;width:300px;height:250px"
+        data-ad-client="ca-pub-3458378356223494"
+        data-ad-slot="8713877563"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- blog ads -->
+        <ins class="adsbygoogle"
+        style="display:inline-block;width:300px;height:250px"
+        data-ad-client="ca-pub-3458378356223494"
+        data-ad-slot="8713877563"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+      </div>
 
     </div>
 
@@ -47,7 +78,7 @@
 
 <script>
 $(document).ready(function(){
-  // $('img').wrap( "<div class='blog_featured_image'></div>" );
-  // $('.blog_post h1').wrap( "<div class='blog_title'></div>" );
+  $('img').wrap( "<div class='blog_featured_image'></div>" );
+  $('.blog_post h1').wrap( "<div class='blog_post_title'></div>" );
 });
 </script>
