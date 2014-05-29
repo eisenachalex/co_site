@@ -1,4 +1,4 @@
-== FreeSwim.co
+# FreeSwim.co
 
 ## Custom Blog with Monologue 0.3
 
