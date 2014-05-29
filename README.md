@@ -1,6 +1,12 @@
 # FreeSwim.co
 
-## Custom Blog with Monologue 0.3
+### Custom Blog with Monologue 0.3
+
+#### Blog Login
+
+  - Open rails console with **rails c**
+  - Monologue::User.create(name: "monologue", email:"monologue@example.com", password:"my-password", password_confirmation: "my-password")
+  - Login at **/blog-posts/monologue**
 
 #### Configure Blog
 
