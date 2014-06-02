@@ -22,10 +22,14 @@
 			clear:both;
 		}
 
-.container h1 {font-weight:500; 
+.container h1 {font-weight:500;
                color:#8f8f8f;
                text-shadow:0px 0px 100px white;
            	   letter-spacing:3px;
            	   padding-bottom:10px;
            	   font-family:'webfont_light',Helvetica,Arial,sans-serif;
            	   }
+
+body{
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,133 @@
+.container .twelve.columns{
+  width: auto;
+}
+
+.blog_body .blog_post {
+  width:720px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.blog_post .content p{
+  color: #696969;
+  font-weight: 400;
+}
+
+
+.blog_body .ads {
+  max-width: 320px;
+  text-align: left;
+  height: 770px;
+  margin: auto;
+  color: #a0a0a0;
+  position: relative;
+  display: inline-block;
+  margin-top: 15% !important;
+}
+
+.blog_body h1.blog_name{
+  /*text-align: center;*/
+  text-align: left;
+}
+
+.blog_body h1.blog_name a{
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+.blog_body h1.blog_name a:hover{
+  color:#086ca2;
+  text-decoration: none;
+}
+
+.blog_body .tags{
+  margin-top: 100px;
+}
+
+.blog_body header.post-header{
+  width:100%;
+  height:auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#blog-bottom{
+  height: 2px;
+ /* width: 81.6%;*/
+ width: 100%;
+/*  margin-left: 7.8%;*/
+  border-top-width: 0px;
+border-bottom-width: 1px;
+border-bottom-color: black;
+}
+
+.blog_body .blog_featured_image{
+  /*this extra width accounts for p element margin*/
+  width: 106%;
+  max-width:700px;
+  max-height:700px;
+  display: inline-block;
+  clear: both;
+  text-align: center;
+}
+
+.blog_body .blog_featured_image img:first-child{
+  box-shadow:1px 1px 10px 2px #868686;
+  max-width: 700px;
+  max-height: 700px;
+}
+
+
+.blog_body .blog_post_title{
+  /*width:440px;*/
+  width: 100%;
+  /*padding-left:10px;*/
+  color:#5BA6CF !important;
+  font-weight:300 !important;
+}
+
+.blog_post_title a:visited{
+  color: black;
+}
+
+.blog_post_title a:hover{
+  color:#086ca2;
+}
+
+.blog_body div.posted{
+  text-indent: 10px;
+}
+
+.blog_body .blog_post_title h1{
+  margin-top: 10px;
+  color: #086ca2;
+  margin-bottom: 5px;
+}
+
+.blog_body .blog_post_title h1 a{
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.post-header .posted{
+  color: rgba(37, 67, 105, 0.71);
+  font-size: 14px;
+}
+
+.monologue-social-sharing{
+  width:150%;
+}
+
+.blog_body .blog_post_title p {
+  font-size:16px;
+}
+.blog_body .content_header{
+  width:100%;
+  padding:10px 0px;
+  height:auto;
+  display:block;
+  clear:both;
+  font-size:11px;
+  color:#086ca2;
+}

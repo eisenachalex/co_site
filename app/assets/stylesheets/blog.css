@@ -3,23 +3,12 @@
 	float:left;
 }
 
-#blog {
-
-}
-
 #blog p{
-	width:600px;
-	font-size:14px;
+	width: 94%;
+	font-size:15px !important;
+	text-align: justify !important;
 	line-height:22px;
 }
-
-.ads {
-	width:400px;
-	height:1000px;
-	float:right;
-}
-
-
 
 .blog_header {
 	width:100%;
