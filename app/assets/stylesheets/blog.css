@@ -4,9 +4,9 @@
 }
 
 #blog p{
-	/*width:600px;*/
 	width: 94%;
-	font-size:14px;
+	font-size:15px !important;
+	text-align: justify !important;
 	line-height:22px;
 }
 
