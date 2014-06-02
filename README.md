@@ -1,6 +1,12 @@
-== FreeSwim.co
+# FreeSwim.co
 
-## Custom Blog with Monologue 0.3
+### Custom Blog with Monologue 0.3
+
+#### Blog Login
+
+  - Open rails console with **rails c**
+  - Monologue::User.create(name: "monologue", email:"monologue@example.com", password:"my-password", password_confirmation: "my-password")
+  - Login at **/blog-posts/monologue**
 
 #### Configure Blog
 
@@ -10,7 +16,7 @@
 
 #### Gems:
 
-  - Rails 3.2+
+  - Rails 3.2
   - monologue (0.3.0)
   - carrierwave (0.9.0)
   - ckeditor (4.0.11)
