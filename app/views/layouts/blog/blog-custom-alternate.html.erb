@@ -9,52 +9,33 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="blog_body">
   <%= render 'layouts/header' %>
   <div class="container" id ="blog">
-      <h1 class="blog_name"><a href="<%= root_path %>">The FreeSwim Blog</a></h1>
+    <h1 class="blog_name"><a href="<%= root_path %>">The FreeSwim Blog</a></h1>
     <header class="main-header sixteen columns clearfix">
       <%= rss_icon %>
     </header>
 
-   <!--  <div class="content twelve columns">
+    <div class="content twelve columns">
       <% flash.each do |name, msg| %>
       <div class="flash-notice">
         <%= msg %>
       </div>
-      <% end %> -->
+      <% end %>
 
       <div class="blog_post">
         <%= yield %>
       </div>
 
       <div class="ads">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- blog ads -->
-        <ins class="adsbygoogle"
-        style="display:inline-block;width:300px;height:250px"
-        data-ad-client="ca-pub-3458378356223494"
-        data-ad-slot="8713877563"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
 
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- blog ads -->
+        <!-- blog_page -->
         <ins class="adsbygoogle"
-        style="display:inline-block;width:300px;height:250px"
+        style="display:inline-block;width:300px;height:600px"
         data-ad-client="ca-pub-3458378356223494"
-        data-ad-slot="8713877563"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- blog ads -->
-        <ins class="adsbygoogle"
-        style="display:inline-block;width:300px;height:250px"
-        data-ad-client="ca-pub-3458378356223494"
-        data-ad-slot="8713877563"></ins>
+        data-ad-slot="6781852361"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
@@ -70,6 +51,7 @@
     <%= yield :footer %>
   </footer>
   <% end %>
+  <hr id="blog-bottom">
   <%= render 'layouts/monologue/application/disqus' %>
   <%= render 'layouts/monologue/application/gauge_analytics' %>
   <%= render 'layouts/footer' %>
@@ -80,5 +62,6 @@
 $(document).ready(function(){
   $('img').wrap( "<div class='blog_featured_image'></div>" );
   $('.blog_post h1').wrap( "<div class='blog_post_title'></div>" );
+  $('span[data-monologue="user"]').prepend('Posted by ');
 });
 </script>

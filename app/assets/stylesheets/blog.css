@@ -4,12 +4,11 @@
 }
 
 #blog p{
-	width:600px;
+	/*width:600px;*/
+	width: 94%;
 	font-size:14px;
 	line-height:22px;
 }
-
-
 
 .blog_header {
 	width:100%;
