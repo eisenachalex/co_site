@@ -74,6 +74,8 @@ border-bottom-color: black;
 
 .blog_body .blog_featured_image img:first-child{
   box-shadow:1px 1px 10px 2px #868686;
+  max-width: 700px;
+  max-height: 700px;
 }
 
 
