@@ -42,6 +42,7 @@ module Portfolio
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
     config.assets.initialize_on_precompile = false
+    config.serve_static_assets = true
 
     #ckeditor
     config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
