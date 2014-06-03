@@ -31,14 +31,37 @@ $(document).ready(function() {
  	$.post(url,data,function(response) {
 
  	});
-
-
-
-
-
-
-
  })
+
+ $(".product_link").click(function(e){
+ 		var id = $(this).attr("id");
+ 		$(".product_link").hide();
+ 		$("#see_all_link").fadeIn();
+ 		$(this).show();
+ 		console.log(id);
+ 		$("#" + id + "> .link_details").css("display", "inline-block");
+ 		$("#" + id + "> .link_details").hide();
+  		$("#" + id + "> .link_details").fadeIn();
+  		$(".product#" + id).fadeIn();
+
+ });
+
+
+  $("#see_all_link").click(function(e){
+ 		var id = $(this).attr("id");
+ 		$(".product_link").show();
+ 		$("#see_all_link").hide();
+  		$(".link_details").hide();
+  		$(".product").hide()
+
+ });
+
+
+
+
+
+
+
 
 
 })

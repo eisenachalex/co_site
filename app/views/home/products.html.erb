@@ -1,17 +1,36 @@
-<div class="container">
-	<h1>Our Products</h1>
-	<div class="product">
-		<div class="product_header">
-			<img src="assets/icon.png"/>
-			<div class="product_features">
-				<h3>Daily - Budget Calculator</h3>
+<div class="container" style="min-height:1000px">
+	<h1>Our Products <a id="see_all_link" href="#">(See all)</a></h1>
+		<div class="product_link" id="budget_calculator">
+			<img src="assets/icon.png" class="app_icon" />
+			<div class="link_details">
+				<h class="title">Daily Budget Calculator</h>
 				<ul>
-					<li>Platform: iOS</li>
-					<li>Category: Budget/Personal Finance</li>
+					<li>ios App</li>
+					<li>Categories: Budget/Personal Finance</li>
 				</ul>
+				<a href="https://itunes.apple.com/us/app/daily-budget-calculator/id845272077?ls=1&mt=8"><img src="assets/apple_store_link.png"/></a>
+
 			</div>
-			<a class="itunes_link" href="https://itunes.apple.com/us/app/daily-budget-calculator/id845272077?mt=8"><img src="assets/apple_store_link.png" /></a>
 		</div>
+		<div class="product_link" id="track_star"> 
+			<img src="assets/track_star_web_icon.png" class="app_icon" />
+			<div class="link_details">
+				<h class="title">Track Star GPS Tracker</h>
+				<ul>
+					<li>ios App</li>
+					<li>Categories: Navigation/Utilities</li>
+				</ul>
+				<a href="https://itunes.apple.com/us/app/track-star-gps-friend-tracker/id881569701?ls=1&mt=8"><img src="assets/apple_store_link.png"/></a>
+			</div>
+		</div>
+
+
+
+
+
+
+
+	<div class="product" id="budget_calculator">
 		<div class="product_description">
 			<h3>Description</h3>
 			<p>A budget tool that simplifies personal finance.  Set your monthly budget, track incomes and expenses, and let Daily do the rest.  Know on a daily basis where you stand with the freeSwim daily budget calculator.</p>
@@ -49,5 +68,64 @@
 				</p>
 			</div>
 		</div>
+	</div>
+
+
+
+
+		<div class="product" id="track_star">
+		<div class="product_description">
+			<h3>Description</h3>
+			<p>See where your friends are down to the second with Track Star GPS friend tracker.  Allow friends to follow your position.</p>
+		</div>
+		<h3>User Guide</h3>
+		<div class="storyboard">
+			<img class="screen_shot" src="assets/select_users_wb.png" />
+			<div class="storyboard_description">
+				<h4>Who can track you?</h4>
+				<p>To let people track your position, simply tap on their name under the "People who can track me" list.  Search for users to add to your list by using the search tab at the top of the view.</p>  <p>Remember, whenever someone's name is green, they can see where you are.</p>
+				<p>
+			</div>
+		</div>
+		<div class="storyboard">
+			<img class="screen_shot" src="assets/tracking_web.png" /> 
+			<div class="storyboard_description">
+				<h4>Tracking your friends</h4>
+				<p>When other users allow you to track their position, the friend icon in the upper right corner will turn red.  To see the list of users who you can track, simply tap the friend icon.</p>
+				<p>Select who you want to track by selecting the user under the "Users I can track" list.  This will take you to back to the map view where you will see exactly where your friend is (to the second)!</p>
+	
+
+			</div>
+		</div>
+		<div class="storyboard">
+			<img src="assets/connection_lost_web.png"/>
+			<div class="storyboard_description">
+				<h4>Connection Status</h4>
+				<p>When tracking friends, you may be disconnected for several reasons.  Sometimes the connection is lost and sometimes users discontinue your session.  The map view will indicate the status of your current tracking session</p>
+				<p>If connection is lost, be sure to check the friend icon.  If it's red, then you have friends you can still track!</p>
+			</div>
+			<div class="storyboard_description">
+			<table>
+				<th>Legend</th>
+				<tr>
+					<td><img src="assets/green_tracker.png" style="width:30px;height:30px;"/></td>
+					<td>Green marker means you are live and tracking!</td>
+				</tr>
+				<tr>
+					<td><img src="assets/grey_marker.png" style="width:30px;height:30px;"/></td>
+					<td>Grey marker means connection has been lost with the other party.</td>
+				</tr>
+				<tr>
+					<td><img src="assets/track_star_people_active_red.png" style="width:30px;height:30px;"/></td>
+					<td>When the friend icon is red, users are letting you track them.</td>
+				</tr>
+				<tr>
+					<td><img src="assets/signal_web.png" style="width:30px;height:30px;"/></td>
+					<td>Whenever this is green, your location is being tracked.</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+
 	</div>
 </div>
