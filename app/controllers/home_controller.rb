@@ -15,6 +15,9 @@ class HomeController < ApplicationController
 	def services
 	end
 
+	def privacy
+	end
+
 	def clients
 	end
 end

@@ -8,6 +8,7 @@ Portfolio::Application.routes.draw do
   get '/contact' => 'home#contact'
   get '/services' => 'home#services'
   get '/clients' => 'home#clients'
+  get '/privacy' => 'home#privacy'
 
   resources :messages
 
